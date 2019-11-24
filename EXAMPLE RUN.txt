@@ -1,0 +1,229 @@
+KingRalph:~/ics3u/final_proj$ jv ICS3U_FP_Final_Damilola
+
+
+ _       __       __                                 __            ______ __                 __                    
+| |     / /___   / /_____ ____   ____ ___   ___     / /_ ____     / ____// /_   ___   _____ / /__ ___   _____ _____
+| | /| / // _ \ / // ___// __ \ / __ `__ \ / _ \   / __// __ \   / /    / __ \ / _ \ / ___// //_// _ \ / ___// ___/
+| |/ |/ //  __// // /__ / /_/ // / / / / //  __/  / /_ / /_/ /  / /___ / / / //  __// /__ / ,<  /  __// /   (__  ) 
+|__/|__/ \___//_/ \___/ \____//_/ /_/ /_/ \___/   \__/ \____/   \____//_/ /_/ \___/ \___//_/|_| \___//_/   /____/  
+
+
+
+--------------------------------------------------
+THE RULES
+--------------------------------------------------
+
+Player 1's Pieces
+    'r1' represents player one's regular pieces
+    'k1' represents player one's king pieces
+Player 2's Pieces
+    'r2' represents player two's regular pieces
+    'k2' represents player two's king pieces
+
+Both regular and king pieces can move only one space at a time
+Both regular and king pieces can move two spaces if executing a capture move
+    That is, 'checking' another piece
+
+Regulars CANNOT MOVE BACKWARDS — that ability is reserved for kings ALONE
+
+An external link is provided below for more information
+    https://en.wikipedia.org/wiki/Draughts
+
+
+--------------------------------------------------
+GAME MENU
+--------------------------------------------------
+
+Enter 'continue' to continue (i.e. exit this game menu)
+Enter 'exit' to end the game
+
+Enter your option: continue
+Enter the side length of the square board: 4
+
+~ Player one, make your move ~
+
+    |col1|col2|col3|col4|
+----|+---+----+----+---+|
+row1|    | r1 |    | r1 |
+----|+---+----+----+---+|
+row2|    |    |    |    |
+----|+---+----+----+---+|
+row3|    |    |    |    |
+----|+---+----+----+---+|
+row4| r2 |    | r2 |    |
+----|+---+----+----+---+|
+
+enter the row number to move from: 1
+enter the column number to move from: 4
+enter the row number to move to: 2
+enter the column number to move to: 3
+
+--------------------------------------------------
+SUCCESSFUL MOVE
+--------------------------------------------------
+
+Access Game Menu? (y/n): n
+
+~ Player two, make your move ~
+
+    |col1|col2|col3|col4|
+----|+---+----+----+---+|
+row1|    | r1 |    |    |
+----|+---+----+----+---+|
+row2|    |    | r1 |    |
+----|+---+----+----+---+|
+row3|    |    |    |    |
+----|+---+----+----+---+|
+row4| r2 |    | r2 |    |
+----|+---+----+----+---+|
+
+enter the row number to move from: 4
+enter the column number to move from: 3
+enter the row number to move to: 3
+enter the column number to move to: 2
+
+--------------------------------------------------
+SUCCESSFUL MOVE
+--------------------------------------------------
+
+Access Game Menu? (y/n): n
+
+~ Player one, make your move ~
+
+    |col1|col2|col3|col4|
+----|+---+----+----+---+|
+row1|    | r1 |    |    |
+----|+---+----+----+---+|
+row2|    |    | r1 |    |
+----|+---+----+----+---+|
+row3|    | r2 |    |    |
+----|+---+----+----+---+|
+row4| r2 |    |    |    |
+----|+---+----+----+---+|
+
+enter the row number to move from: 1
+enter the column number to move from: 2
+enter the row number to move to: 2
+enter the column number to move to: 1
+
+--------------------------------------------------
+SUCCESSFUL MOVE
+--------------------------------------------------
+
+Access Game Menu? (y/n): n
+
+~ Player two, make your move ~
+
+    |col1|col2|col3|col4|
+----|+---+----+----+---+|
+row1|    |    |    |    |
+----|+---+----+----+---+|
+row2| r1 |    | r1 |    |
+----|+---+----+----+---+|
+row3|    | r2 |    |    |
+----|+---+----+----+---+|
+row4| r2 |    |    |    |
+----|+---+----+----+---+|
+
+enter the row number to move from: 3 
+enter the column number to move from: 2
+enter the row number to move to: 1
+enter the column number to move to: 4
+
+--------------------------------------------------
+FIRST BLOOD
+--------------------------------------------------
+
+
+--------------------------------------------------
+ALL HAIL THE KING
+--------------------------------------------------
+
+
+--------------------------------------------------
+SUCCESSFUL MOVE
+--------------------------------------------------
+
+Access Game Menu? (y/n): n
+
+~ Player one, make your move ~
+
+    |col1|col2|col3|col4|
+----|+---+----+----+---+|
+row1|    |    |    | k2 |
+----|+---+----+----+---+|
+row2| r1 |    |    |    |
+----|+---+----+----+---+|
+row3|    |    |    |    |
+----|+---+----+----+---+|
+row4| r2 |    |    |    |
+----|+---+----+----+---+|
+
+enter the row number to move from: 2
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 3
+
+--------------------------------------------------
+ERROR: MOVE WAS INVALID or NOT DIAGONAL
+--------------------------------------------------
+
+
+
+    |col1|col2|col3|col4|
+----|+---+----+----+---+|
+row1|    |    |    | k2 |
+----|+---+----+----+---+|
+row2| r1 |    |    |    |
+----|+---+----+----+---+|
+row3|    |    |    |    |
+----|+---+----+----+---+|
+row4| r2 |    |    |    |
+----|+---+----+----+---+|
+
+enter the row number to move from: 2
+enter the column number to move from: 
+1
+enter the row number to move to: 3
+enter the column number to move to: 2
+
+--------------------------------------------------
+SUCCESSFUL MOVE
+--------------------------------------------------
+
+Access Game Menu? (y/n): n
+
+~ Player two, make your move ~
+
+    |col1|col2|col3|col4|
+----|+---+----+----+---+|
+row1|    |    |    | k2 |
+----|+---+----+----+---+|
+row2|    |    |    |    |
+----|+---+----+----+---+|
+row3|    | r1 |    |    |
+----|+---+----+----+---+|
+row4| r2 |    |    |    |
+----|+---+----+----+---+|
+
+enter the row number to move from: 4
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 3
+
+--------------------------------------------------
+SUCCESSFUL MOVE
+--------------------------------------------------
+
+Access Game Menu? (y/n): n
+
+--------------------------------------------------
+PLAYER TWO HAS WON THE GAME
+--------------------------------------------------
+
+
+--------------------------------------------------
+GAMEOVER
+--------------------------------------------------
+
+KingRalph:~/ics3u/final_proj$ 

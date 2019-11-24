@@ -1,0 +1,72 @@
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+will_chk_piece
+ax0 = 0
+ay0 = 0
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 1
+dx = 1
+dy = 1
+isValidDiagonalMove = true
+will_chk_piece = false
+
+--------------------------------------------------
+FELL OFF THE SCOPE OF THE EARTH
+--------------------------------------------------
+
+make_mv
+will_chk_piece
+ax0 = 0
+ay0 = 0
+
+elll
+elee
+eeee
+dddd
+
+~ Player two, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 1
+enter the column number to move to: 2
+ERROR: NO BOARD PIECE WAS FOUND AT THAT LOCATION
+make_mv
+will_chk_piece
+ax0 = 0
+ay0 = 0
+
+eell
+elee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 3
+enter the column number to move from: 2
+enter the row number to move to: 43
+enter the column number to move to: 2
+CANNOT PASS THROUGH WALLS
+enter the row number to move from: 1
+enter the column number to move from: 4
+enter the row number to move to: 5
+enter the column number to move to: 3
+CANNOT PASS THROUGH WALLS
+enter the row number to move from: 1
+

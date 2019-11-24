@@ -1,0 +1,802 @@
+Last login: Fri Jan 18 03:33:45 on ttys000
+KingRalph:~$ cd ics3u/final_proj/
+KingRalph:~/ics3u/final_proj$ vim checkers4.java gameplan.txt 
+2 files to edit
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+~ Player one, make your move ~enter the row number to move from: ç^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 4
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+enter the row number to move from: 
+
+3
+enter the column number to move from: 3
+enter the row number to move to: 3
+enter the column number to move to: 3
+enter the row number to move from: 3
+enter the column number to move from: 33
+enter the row number to move to: 3
+enter the column number to move to: 3
+enter the row number to move from: 3^CKingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+checkers4.java:153: error: unreachable statement
+		if(!isValidDiagonalMove(x0, y0, x1, y1)){ // enforces diagonal-move-only
+		^
+1 error
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 4   
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+enter the row number to move from: 4
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+enter the row number to move from: 
+
+
+
+^CKingRalph:~/ics3u/final_proj$ jv checkers4
+checkers4.java:152: error: unreachable statement
+		if(!isValidDiagonalMove(x0, y0, x1, y1)){ // enforces diagonal-move-only
+		^
+1 error
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 4
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+CANNOT MOVE PLAYER TWO's PIECES
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+DIAGONAL MOVES ONLY
+enter the row number to move from:     
+1
+enter the column number to move from: 1
+enter the row number to move to: 3
+enter the column number to move to: 3
+DIAGONAL MOVES ONLY
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+dx = 1
+dy = 0
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: ^C^CKingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 0
+dx = 1
+dy = 0
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: ^[[A
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at checkers4.get_int(checkers4.java:56)
+	at checkers4.begin_mk_mv(checkers4.java:125)
+	at checkers4.game_loop(checkers4.java:99)
+	at checkers4.main(checkers4.java:33)
+KingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 2
+enter the row number to move to: 
+3
+enter the column number to move to: 3
+x0 = 0
+y0 = 1
+x1 = 2
+y1 = 0
+dx = 2
+dy = 1
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+
+Press ENTER or type command to continue
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 3
+x0 = 0
+y0 = 0
+x1 = 2
+y1 = 0
+dx = 2
+dy = 0
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 3
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 0
+dx = 1
+dy = 0
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 0
+dx = 1
+dy = 0
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: 1 
+enter the column number to move from: 1
+enter the row number to move to: 4
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 0
+dx = 1
+dy = 0
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: ^C^C^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 1
+dx = 1
+dy = 1
+ret = true
+FELL OFF THE SCOPE OF THE EARTH
+
+~ ERROR EXIT ~
+1111
+0000
+0000
+2222
+
+isPlayerOne = true
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: ^R
+^C^CKingRalph:~/ics3u/final_proj$ jv checkers4
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 1
+dx = 1
+dy = 1
+ret = true
+FELL OFF THE SCOPE OF THE EARTH
+
+elll
+elee
+eeee
+dddd
+
+~ Player two, make your move ~
+enter the row number to move from: 4
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+x0 = 3
+y0 = 3
+x1 = 2
+y1 = 2
+dx = 1
+dy = 1
+ret = true
+FELL OFF THE SCOPE OF THE EARTH
+
+elll
+elee
+eede
+ddde
+
+~ Player one, make your move ~
+enter the row number to move from: 2
+enter the column number to move from: 2
+enter the row number to move to: 4
+enter the column number to move to: 4
+x0 = 1
+y0 = 1
+x1 = 3
+y1 = 3
+dx = 2
+dy = 2
+ret = false
+DIAGONAL MOVES ONLY
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 1
+dx = 1
+dy = 1
+ret = true
+will_chk_piece
+lx0 = 1
+ly0 = 1
+will_chk_piece = true
+FELL OFF THE SCOPE OF THE EARTH
+will_chk_piece
+lx0 = 1
+ly0 = 1
+
+elll
+elee
+eeee
+dddd
+
+~ Player two, make your move ~
+enter the row number to move from: 4
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+x0 = 3
+y0 = 3
+x1 = 2
+y1 = 2
+dx = 1
+dy = 1
+ret = true
+will_chk_piece
+lx0 = 2
+ly0 = 2
+will_chk_piece = true
+FELL OFF THE SCOPE OF THE EARTH
+will_chk_piece
+lx0 = 2
+ly0 = 2
+
+elll
+elee
+eede
+ddde
+
+~ Player one, make your move ~
+enter the row number to move from: 2
+enter the column number to move from: 2
+enter the row number to move to: 4
+enter the column number to move to: 4
+will_chk_piece
+lx0 = 3
+ly0 = 3
+x0 = 1
+y0 = 1
+x1 = 3
+y1 = 3
+dx = 2
+dy = 2
+ret = true
+will_chk_piece
+lx0 = 3
+ly0 = 3
+will_chk_piece = true
+FELL OFF THE SCOPE OF THE EARTH
+will_chk_piece
+lx0 = 3
+ly0 = 3
+
+elll
+eeee
+eede
+dddl
+
+~ Player two, make your move ~
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 1
+dx = 1
+dy = 1
+ret = true
+will_chk_piece
+lx0 = 1
+ly0 = 1
+will_chk_piece = true
+FELL OFF THE SCOPE OF THE EARTH
+WE MADE THE MOVE BOI
+will_chk_piece
+lx0 = 1
+ly0 = 1
+
+elll
+elee
+eeee
+dddd
+
+~ Player two, make your move ~
+enter the row number to move from: 4
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+x0 = 3
+y0 = 3
+x1 = 2
+y1 = 2
+dx = 1
+dy = 1
+ret = true
+will_chk_piece
+lx0 = 2
+ly0 = 2
+will_chk_piece = true
+FELL OFF THE SCOPE OF THE EARTH
+WE MADE THE MOVE BOI
+will_chk_piece
+lx0 = 2
+ly0 = 2
+
+elll
+elee
+eede
+ddde
+
+~ Player one, make your move ~
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 
+2
+will_chk_piece
+lx0 = 1
+ly0 = 1
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 1
+dx = 1
+dy = 1
+isValidDiagonalMove = true
+will_chk_piece = true
+FELL OFF THE SCOPE OF THE EARTH
+WE MADE THE MOVE BOI
+will_chk_piece
+lx0 = 1
+ly0 = 1
+
+elll
+elee
+eeee
+dddd
+
+~ Player two, make your move ~
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ jv checkers4
+
+
+Press ENTER or type command to continue
+
+Press ENTER or type command to continue
+
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: 1
+enter the column number to move from: 1
+enter the row number to move to: 2
+enter the column number to move to: 2
+will_chk_piece
+lx0 = 1
+ly0 = 1
+x0 = 0
+y0 = 0
+x1 = 1
+y1 = 1
+dx = 1
+dy = 1
+isValidDiagonalMove = true
+will_chk_piece = false
+FELL OFF THE SCOPE OF THE EARTH
+WE MADE THE MOVE BOI
+will_chk_piece
+lx0 = 1
+ly0 = 1
+
+elll
+elee
+eeee
+dddd
+
+~ Player two, make your move ~
+enter the row number to move from: 4
+enter the column number to move from: 4
+enter the row number to move to: 3
+enter the column number to move to: 3
+will_chk_piece
+lx0 = 2
+ly0 = 2
+x0 = 3
+y0 = 3
+x1 = 2
+y1 = 2
+dx = 1
+dy = 1
+isValidDiagonalMove = true
+will_chk_piece = false
+FELL OFF THE SCOPE OF THE EARTH
+WE MADE THE MOVE BOI
+will_chk_piece
+lx0 = 2
+ly0 = 2
+
+elll
+elee
+eede
+ddde
+
+~ Player one, make your move ~
+enter the row number to move from: 2
+enter the column number to move from: 2
+enter the row number to move to: 3
+enter the column number to move to: 3
+will_chk_piece
+lx0 = 2
+ly0 = 2
+x0 = 1
+y0 = 1
+x1 = 2
+y1 = 2
+dx = 1
+dy = 1
+isValidDiagonalMove = true
+will_chk_piece = false
+CANNOT MOVE ONTO OCCUPIED POSITION
+enter the row number to move from: 2
+enter the column number to move from: 2
+enter the row number to move to: 4
+enter the column number to move to: 4
+will_chk_piece
+lx0 = 3
+ly0 = 3
+x0 = 1
+y0 = 1
+x1 = 3
+y1 = 3
+dx = 2
+dy = 2
+isValidDiagonalMove = true
+will_chk_piece = true
+FELL OFF THE SCOPE OF THE EARTH
+WE MADE THE MOVE BOI
+will_chk_piece
+lx0 = 3
+ly0 = 3
+
+elll
+eeee
+eede
+dddl
+
+~ Player two, make your move ~
+enter the row number to move from: 
+
+
+^CKingRalph:~/ics3u/final_proj$ jv checkers4
+
+
+Press ENTER or type command to continue
+^C
+Hello! Welcome to Checkers.
+
+~ The rules ~
+‘l’ is the light side's (player 1) pieces
+'d' is the dark side's (player 2) pieces
+‘e’ indicates empty space on the board
+
+llll
+eeee
+eeee
+dddd
+
+~ Player one, make your move ~
+enter the row number to move from: ^CKingRalph:~/ics3u/final_proj$ ^C
+KingRalph:~/ics3u/final_proj$ 
+KingRalph:~/ics3u/final_proj$ 
