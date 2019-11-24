@@ -1,7 +1,7 @@
 # ICS3U ISP
 An ASCII game of checkers (with the full standard rules). This was my own idea for an Independent Study Project (ISP) for an ICS 3U course.
 
-`ICS3U_FP_Final_Submission_Damilola.java` is the file I submitted to my instructor for evaluation. It contains an implementation of checkers.
+`ICS3U_FP_Final_Submission_Damilola.java` is the file I submitted to my instructor for evaluation (all other files are merely partially working proof of concepts). It contains an implementation of checkers.
 
 # Fancy Screenshots
 
@@ -9,5 +9,5 @@ An ASCII game of checkers (with the full standard rules). This was my own idea f
 
 ![alt text](./screenshots/2.png)
 
-Note that a sample of the game's output can be found in `EXAMPLE RUN.txt` or any file of the form `TST session output - *`.
+Note that a sample of the game's output can be found in `DEMO.txt` or any file of the form `TST session output - *.txt`.
 
