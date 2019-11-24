@@ -15,6 +15,7 @@ THE RULES
 
 Player 1's Pieces
     'r1' represents player one's regular pieces
+    'k1' represents player one's king pieces
 Player 2's Pieces
     'r2' represents player two's regular pieces
     'k2' represents player two's king pieces
