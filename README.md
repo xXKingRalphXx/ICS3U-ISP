@@ -1,7 +1,8 @@
 # ICS3U ISP
-An ASCII game of checkers (with the full standard rules). Working alone, I brought this entire project to completion. It was my own idea for an Independent Study Project (ISP) for an ICS 3U course.
+An ASCII game of checkers (with the full standard rules). I worked on this project independently.
 
-This code earned me a grade of %100. (94% in the course.)
+I got %100 for this project.
+(94% in the course.)
 
 `ICS3U_FP_Final_Submission_Damilola.java` is the file I submitted to my instructor for evaluation (all other files are merely partially working proof of concepts). It contains an implementation of checkers.
 
