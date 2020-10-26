@@ -261,39 +261,3 @@ public class checkers4{
 	}
 }
 
-// TODO
-// SEE GDOC FOR EXAMPLE OF PROGRAM OUTPUT
-// forbid backward moves
-	// pretty_print("ERROR: CANNOT MOVE REGULAR PIECE BACKWARDS");
-// display message to indicate successuful moves
-
-// configure end of game conditions
-	// make state variables for the number of each players' pieces
-	// add check for end of game somewhere (which player wins?)
-
-// code up an 8 x 8 board => new file (checkers8.java)
-	// initialize board pieces (see online images)
-
-// kings & regulars
-	// identify them
-	// convert regulars to kings (NEW FUNCTION FOR THIS)
-		// remember context: p1 & p2 moves to diff. ends of the board to make conversion
-	// kings can move forwards/backwards diagonally by one or two (to make capture move)
-
-// add game text / banners for not
-	// "first blood" => for first player to capture a piece
-	// "ALL HAIL THE KING" => when any player spawns a new king
-	// "welp" => for player that loses large amount (n>3) of pieces in one swipe
-
-// game options
-	// flying kings (can move arbitrary diagonal distances)
-	// board size
-
-// clear instructions for user
-	// link to clear chess instructions on the web
-	// consider inline instructions, NOT a blurb of txt
-
-// better function to draw board (experiment in sublime txt—construct your own)
-// implement combo-moves (prompt the user)
-
-
