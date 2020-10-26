@@ -745,14 +745,3 @@ public class checkersN{
 		}
 	}
 }
-
-// TODO
-// final submission
-	// make new file
-	// remove debug related code 
-	// remove dead code
-
-// ensure code is still working
-
-// finish report
-
